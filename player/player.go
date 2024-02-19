@@ -34,7 +34,7 @@ func NewPlayer() *Player {
 		ID:                0,
 		Username:          "",
 		Password:          "",
-		CurrentQuiz:       quiz.Quiz,
+		CurrentQuiz:       quiz.Quiz{},
 		PreviousAttempts:  []QuizAttempt{},
 		CompletedQuizzes:  []quiz.Quiz{},
 		FailedQuizzes:     []quiz.Quiz{},
